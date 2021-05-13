@@ -111,7 +111,15 @@
         crossorigin="anonymous"></script>
 
 
-    <script src="./ShirtCollar.js"></script>
+    <!-- <script src="./ShirtCollar.js"></script> -->
+    <script>
+        document.getElementById("change4").addEventListener("mouseover", function () {
+            document.getElementById("picture__high").style.backgroundImage = "url('img/1.png')";
+        }, document.getElementById("picture__high").style.backgroundImage = "url('img/4.png')");
+        document.getElementById("change4").addEventListener("mouseout", function () {
+            document.getElementById("picture__high").style.backgroundImage = "url('img/1.png')";
+        }, document.getElementById("picture__high").style.backgroundImage = "url('img/4.png')");
+    </script>
 </body>
 
 </html>

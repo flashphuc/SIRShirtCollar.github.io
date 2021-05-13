@@ -32,12 +32,12 @@
 
 // });
 
-document.getElementById("change4").addEventListener("mouseover", function () {
-    document.getElementById("picture__high").style.backgroundImage = "url('img/1.png')";
-}, document.getElementById("picture__high").style.backgroundImage = "url('img/4.png')");
-document.getElementById("change4").addEventListener("mouseout", function () {
-    document.getElementById("picture__high").style.backgroundImage = "url('img/1.png')";
-}, document.getElementById("picture__high").style.backgroundImage = "url('img/4.png')");
+// document.getElementById("change4").addEventListener("mouseover", function () {
+//     document.getElementById("picture__high").style.backgroundImage = "url('img/1.png')";
+// }, document.getElementById("picture__high").style.backgroundImage = "url('img/4.png')");
+// document.getElementById("change4").addEventListener("mouseout", function () {
+//     document.getElementById("picture__high").style.backgroundImage = "url('img/1.png')";
+// }, document.getElementById("picture__high").style.backgroundImage = "url('img/4.png')");
 
 // document.getElementById("change2").addEventListener("mouseover", function () {
 //     document.getElementById("picture__high").style.backgroundImage = "url('img/2.png')";
